@@ -51,5 +51,5 @@ function calcPagtoVistaPV(valorEtiqueta, desconto){
     }
 }
 
-calcPagtoVistaP(100, '15uuuuu')
+
 
