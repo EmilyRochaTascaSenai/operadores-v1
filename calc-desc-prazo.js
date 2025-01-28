@@ -38,7 +38,7 @@ function calcPagtoVistaP(valorEtiqueta, desconto){
     console.log(`Valor do pagamento á  vista: R$ ${valorPagar.toFixed(2)}.`);
 }
 
-//Receber paramentos para fazer os cakculos com validação
+//Receber paramentos para fazer os calculos com validação
 function calcPagtoVistaPV(valorEtiqueta, desconto){
     //Garantindo que ambos os argurmentos sejam números
     valorEtiqueta=parseFloat(valorEtiqueta);
@@ -47,6 +47,7 @@ function calcPagtoVistaPV(valorEtiqueta, desconto){
     //Verificando se os valores são válidos
     if(isNaN(valorEtiqueta)|| isNaN (desconto) ) {
         console.log("Por favor,forneça números válidos");
+        return;
     }
 
     
