@@ -49,8 +49,7 @@ function calcPagtoVistaPV(valorEtiqueta, desconto){
         console.log("Por favor,forneça números válidos");
         return;
     }
-
-    
 }
 
+calcPagtoVistaP(100, '15uuuuu')
 
